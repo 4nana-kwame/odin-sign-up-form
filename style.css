@@ -140,3 +140,8 @@ button:hover {
     color: #596d48;
     text-decoration: none;
 }
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
