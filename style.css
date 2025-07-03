@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 50px;
-    background-color: #dad6d6;
+    background-color: #eff1f3;
 }
 
 .bg-img {
@@ -78,4 +78,35 @@ img {
 
 .description > p {
     margin-bottom: 15px;
+}
+
+label {
+    display: block;
+}
+
+form {
+    display: flex;
+    gap: 100px;
+}
+
+input {
+    padding: 5px;
+    border: 1px solid #e5e7eb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-family: inherit;
+    width: 100%;
+    outline: none;
+}
+
+input:focus{
+    border: 1px solid #4d4dc7;
+}
+
+input[type="password"]:invalid {
+    border: 1px solid red;
+}
+
+input:valid {
+    border: 1px solid green;
 }
