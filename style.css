@@ -110,3 +110,33 @@ input[type="password"]:invalid {
 input:valid {
     border: 1px solid green;
 }
+
+button {
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #596d48;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    font-size: 1rem;
+    font-family: inherit;
+    width: 200px;
+    transition: 
+        transform 0.3s ease,
+        background-color 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-10%);
+    background-color: rgba(89, 109, 72, 0.8);
+}
+
+.log-in {
+    margin-top: 20px;
+}
+
+.log-in a {
+    color: #596d48;
+    text-decoration: none;
+}
