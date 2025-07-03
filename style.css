@@ -24,6 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 50px;
+    background-color: #dad6d6;
 }
 
 .bg-img {
