@@ -11,4 +11,23 @@
 
 body {
     font-family: 'norse-bold', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.form-section {
+    font-family: system-ui, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.bg-img {
+    width: 50%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
 }
