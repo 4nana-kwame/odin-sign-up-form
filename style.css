@@ -2,3 +2,13 @@
     font-family: 'norse-bold';
     src: url('/fonts/Norse-Bold.otf') format('opentype');
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'norse-bold', sans-serif;
+}
